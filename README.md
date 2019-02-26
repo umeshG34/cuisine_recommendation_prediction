@@ -5,18 +5,18 @@ Used Jaccard's distance to recommend closest 5 dished based of ingredients input
 #======================================Project 2: =========================================#
 FILE Organization:
 
-	+--project2/
-	+--project2/
-		+--__init__.py
-		+--project2.py
-	+--tests/
-		+--test_eda.py
-		+--test_train_mod.py
-	+--yummly.json
-	+--README
-	+--requirements.txt
-	+--setup.cfg
-	+--setup.py
+	project2/
+		project2/
+			__init__.py
+			project2.py
+		tests/
+			test_eda.py
+			test_train_mod.py
+		yummly.json
+		README
+		requirements.txt
+		setup.cfg
+		setup.py
 
 #==============================Predict Cuisine and Top-5 closest Recipies=================#
 Execution Instructions:
