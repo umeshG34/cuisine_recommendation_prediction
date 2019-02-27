@@ -2,8 +2,8 @@
 Used Jaccard's distance to recommend closest 5 dished based of ingredients input through command line args. predicted closest cuisine of the same.(Written May 2018)
 
 
-#======================================Project 2: =========================================#
-FILE Organization:
+### Project 2:
+#### FILE Organization:
 
 	project2/
 		project2/
