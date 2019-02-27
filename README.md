@@ -41,12 +41,13 @@ that we have listed using different types of distances.
 The predicted cusine and the top 5 recipies are displayed along with their distnces from our datapoint.
 
 
-===============Methods==============
--eda(): eda() is mainly used to create individual lists.
-	In the method eda we perform some basic exploratory data analysis trying to understand things like number of 
-	classes (20), number of dataoints(~39700), number of unique ingredients(~6100) etc.
-	
-	We se this space to extract the 'id's, cuisines and ingredients from the list of dictioanries.
+## Methods
+#### eda(): 
+eda() is mainly used to create individual lists.
+In the method eda we perform some basic exploratory data analysis trying to understand things like number of 
+classes (20), number of dataoints(~39700), number of unique ingredients(~6100) etc.
+
+We se this space to extract the 'id's, cuisines and ingredients from the list of dictioanries.
 
 #### train_mod():
 This method takes in the list of dicts calls eda(). eda() returns y(cuisine list),ids list,and thelist of list of ingredients.
@@ -70,7 +71,7 @@ Finally this method returns the model, vectorizer, ids, and the feature matrix.
  #### predict_cus(): 
  predict_cus() method predicts the cuisine and the top-5 recipies.
 	
--train_mod() is called to obtain its contents.The vectorizer is used to tranform the new user input and then is fed to transform() method 
+- train_mod() is called to obtain its contents.The vectorizer is used to tranform the new user input and then is fed to transform() method 
 of the classifier. We obtain the predicted class this way. For we the top-5 ids, teh distnace metric is used to calculate the 
 distance between all the datapoints and the user input. The closest points are then taken and displayed. For caluclating the distance, various distances were tried such as 'hamming','dice' and 'jaccard'. We finally used jaccard.
 
