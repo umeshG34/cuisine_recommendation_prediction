@@ -1,4 +1,4 @@
-# Cuisine Prediction and 5 Closest dishes Recommendation
+# <center>Cuisine Prediction and 5 Closest dishes Recommendation</center>
 Used Jaccard's distance to recommend closest 5 dished based of ingredients input through command line args. predicted closest cuisine of the same.(Written May 2018)
 
 
@@ -48,7 +48,9 @@ The predicted cusine and the top 5 recipies are displayed along with their distn
 	
 	We se this space to extract the 'id's, cuisines and ingredients from the list of dictioanries.
 
--train_mod():This method takes in the list of dicts calls eda(). eda() returns y(cuisine list),ids list,and thelist of list of ingredients.
+#### train_mod():
+This method takes in the list of dicts calls eda(). eda() returns y(cuisine list),ids list,and thelist of list of ingredients.
+
 As CountVectorizer and TfidfVectroizer require input in the form of list of strings. One string for one document. But here we 
 have already vectroized strings.Hence the ingredients are joined using the thorn character as a sperator. Another paramter is 		the min_df. When we give a float value, the float part is used as a minmum threshold to keep or throw away ingredients. 
 So here the 0.0001 says that only phrases that have atleast appeard in 0.01% of all the documents are retained.
@@ -65,7 +67,8 @@ MLP and Multinomial perform wth similar test accuracy scores. The latter takes m
 
 Finally this method returns the model, vectorizer, ids, and the feature matrix.
 
--predict_cus(): predict_cus() method predicts the cuisine and the top-5 recipies.
+ #### predict_cus(): 
+ predict_cus() method predicts the cuisine and the top-5 recipies.
 	
 -train_mod() is called to obtain its contents.The vectorizer is used to tranform the new user input and then is fed to transform() method 
 of the classifier. We obtain the predicted class this way. For we the top-5 ids, teh distnace metric is used to calculate the 
