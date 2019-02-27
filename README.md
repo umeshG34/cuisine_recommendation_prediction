@@ -18,10 +18,11 @@ Used Jaccard's distance to recommend closest 5 dished based of ingredients input
 		setup.cfg
 		setup.py
 
-#==============================Predict Cuisine and Top-5 closest Recipies=================#
-Execution Instructions:
+### ==============================Predict Cuisine and Top-5 closest Recipies=================#
+#### Execution Instructions:
 - The project2.py is run from this directory: 
 					projects/project2
+					
 -The following command can be used to execute the py file correctly:
 
 		python3 project2/project2.py --ingredient 'wheat' --ingredient 'oil' --ingredient 'salt' --ingredient 'water'
@@ -30,7 +31,7 @@ Execution Instructions:
 We are given the "yummly.JSON" file which when loaded using the JSON package gives us a list of 
 dictionaries with the following format:
 
-[{'id':1 , 'cuisine' : 'martian', 'ingredients' : ['iron','nails','magnets']},{'id':2},....,{}]
+	[{'id':1 , 'cuisine' : 'martian', 'ingredients' : ['iron','nails','magnets']},{'id':2},....,{}]
 
 General Approach:
 We first extract the contents of the list of dictionary to individual lists. The ingredients list is vectorized using 
