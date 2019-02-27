@@ -18,7 +18,7 @@ Used Jaccard's distance to recommend closest 5 dished based of ingredients input
 		setup.cfg
 		setup.py
 
-### ==============================Predict Cuisine and Top-5 closest Recipies=================#
+### Predict Cuisine and Top-5 closest Recipies
 #### Execution Instructions:
 - The project2.py is run from this directory: 
 					projects/project2
