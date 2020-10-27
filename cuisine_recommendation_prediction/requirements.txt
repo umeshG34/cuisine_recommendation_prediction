@@ -10,7 +10,7 @@ chardet==3.0.4
 configparser==3.5.0
 coverage==4.5.1
 crcmod==1.7
-cryptography==2.3
+cryptography==3.2
 docutils==0.14
 enum34==1.1.6
 future==0.16.0
