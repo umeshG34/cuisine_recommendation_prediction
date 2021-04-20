@@ -32,7 +32,7 @@ pdfmerge==0.0.7
 pep8==1.7.1
 pexpect==4.2.1
 probableparsing==0.0.1
-py==1.4.34
+py==1.10.0
 pycrypto==2.6.1
 pygobject==3.24.1
 pylint==1.8.2
